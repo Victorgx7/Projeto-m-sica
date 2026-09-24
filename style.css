@@ -1,0 +1,155 @@
+:root{
+    --cor-principal: #000000;
+    --cor-menta:#AAFFE1;
+      --cor-shadow:#ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.navbar {
+    background-color: var(--cor-menta);
+    padding: 1rem 3rem;
+    border-bottom: 8px solid var(--cor-menta);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-principal);
+    color: var(--cor-menta);
+    padding: 1rem 2rem;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--cor-menta);
+    text-decoration: none;
+    font-style: italic;
+    font-size: 19;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--cor-shadow);
+}
+
+.hero {
+    background-color: #000000;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    margin: 20px 10px ;
+}
+
+.hero-intro {
+    color: var(--cor-shadow);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-card{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--cor-menta);
+    color: var(--cor-principal);
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin-bottom: 1.5rem;
+}
+
+.hero-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero-card p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.hero-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    max-width: 280px;
+    margin: 2rem auto 0;
+}
+
+.bnt-pill {
+    display: block;
+    text-align: center;
+    background-color: var(--cor-menta);
+     color: #1a1a2e;
+     text-decoration: none;
+     padding: 0.7rem 1.5rem;
+     border-radius: 17px;
+     font-weight: bold;
+     transition: opacity 0.3s ease;
+}
+
+.bnt-pill {
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-menta);
+    border-top: 8px solid var(--cor-menta);
+    padding: 2.5rem 3rem 1.5rem;
+}
+
+.footer-topo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-logo {
+  font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: var(--cor-shadow);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--cor-shadow);
+}
