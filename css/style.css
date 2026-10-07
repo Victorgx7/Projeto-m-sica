@@ -44,8 +44,10 @@ body {
 }
 
 .nav-links a {
-    color: var(--cor-menta);
+     color: var(--cor-menta);
     text-decoration: none;
+}
+.nav-links {
     font-style: italic;
     font-size: 19;
     text-align: center;
@@ -113,6 +115,27 @@ body {
 .bnt-pill {
     opacity: 0.8;
 }
+
+.footer-social img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-social img[alt="Instagram"] {
+    width: 35px;
+}
+
+.footer-social img[alt="SiteETEc"] {
+    width: 60px;
+}
+
 
 .footer {
     background-color: var(--cor-principal);
